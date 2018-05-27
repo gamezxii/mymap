@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nitsarut.mymap.AdminRecrive"
+   >
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textOnName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ผู้รับ : "
+                        android:layout_marginLeft="10dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                    <TextView
+                        android:id="@+id/name_s12"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_width="match_parent"
+                        android:text="ชื่อผู้ส่ง : "
+                        android:layout_toRightOf="@+id/textOnName1"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        />
+
+                    <TextView
+                        android:id="@+id/show_status"
+                        android:layout_width="wrap_content"
+                        android:layout_below="@+id/name_s12"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="@string/showStatus"/>
+
+                    <TextView
+                        android:id="@+id/get_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/show_status"
+                        android:layout_below="@id/name_s12"/>
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/show_status"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="@string/description"/>
+
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ptionDption"
+                        android:textSize="14sp"
+                        android:layout_toRightOf="@id/description"
+                        android:layout_below="@id/get_status"
+                        />
+
+                    <TextView
+                        android:id="@+id/road"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/description"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="@string/road"/>
+
+                    <TextView
+                        android:id="@+id/current"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Description DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescri"
+                        android:layout_toRightOf="@+id/road"
+                        android:layout_below="@id/desc"/>
+
+                    <TextView
+                        android:id="@+id/show_datetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/current"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="@string/showdate"/>
+
+                    <TextView
+                        android:id="@+id/get_datetime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/show_datetime"
+                        android:layout_below="@id/current"/>
+
+
+
+                    <com.github.chrisbanes.photoview.PhotoView
+                        android:id="@+id/adm_recrive11111"
+                        android:layout_width="400dp"
+                        android:layout_height="300dp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="50dp"
+                        android:layout_below="@+id/get_datetime"
+                        android:src="@drawable/labrador_retriever" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="500dp">
+
+                    <EditText
+                        android:id="@+id/txtdescription12"
+                        style="@style/AdmRecrive"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="@string/adddaterecrive"
+                        android:inputType="text"
+                        android:textSize="16sp"
+                        />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_below="@+id/txtdescription12"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="550dp"
+                    android:layout_height="70dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/btnnone"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/btnnoacp" />
+
+                        <ImageView
+                            android:id="@+id/btnacp11"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="70dp"
+                            android:layout_toRightOf="@+id/btnnone"
+                            android:src="@drawable/btnacp"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

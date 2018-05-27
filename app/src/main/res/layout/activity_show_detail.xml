@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parentLayout"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.nitsarut.mymap.ShowDetailActivity"
+    android:orientation="vertical">
+
+   <ScrollView
+       android:id="@+id/scrollView12"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_below="@id/photo_view"
+          android:layout_marginTop="15dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:gravity="center">
+
+          <LinearLayout
+              android:id="@+id/le1w"
+              android:layout_below="@id/photo_view_after"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_marginTop="15dp">
+
+              <RelativeLayout
+                  android:layout_marginTop="25dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="50dp"
+                  >
+
+                  <TextView
+                      android:id="@+id/recrive"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/recrive"
+                      android:src="@drawable/labrador_retriever" />
+
+                  <TextView
+                      android:id="@+id/recrive1"
+                      android:layout_marginLeft="100dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/namerecrive"/>
+
+
+                  <TextView
+                      android:id="@+id/datesent"
+                      android:layout_below="@id/recrive"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/datesent"/>
+
+                  <TextView
+                      android:id="@+id/datesent1"
+                      android:layout_below="@id/recrive1"
+                      android:layout_marginLeft="100dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/datesent1"/>
+
+
+                  <TextView
+                      android:id="@+id/statussuc"
+                      android:layout_below="@id/datesent"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/statussuc"/>
+
+                  <TextView
+                      android:id="@+id/statussuc1"
+                      android:layout_below="@id/datesent1"
+                      android:layout_marginLeft="100dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/statussuc1"/>
+
+                  <TextView
+                      android:id="@+id/datesuc"
+                      android:layout_below="@id/statussuc"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/datesrum"/>
+
+                  <TextView
+                      android:id="@+id/datesuc1"
+                      android:layout_below="@id/statussuc1"
+                      android:layout_marginLeft="100dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/datesrum1"/>
+
+
+
+
+              </RelativeLayout>
+
+          </LinearLayout>
+
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+
+
+
+       <TextView
+           android:id="@+id/before"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:textSize="16sp"
+           android:text="@string/before"/>
+
+       <com.github.chrisbanes.photoview.PhotoView
+           android:id="@+id/photo_view"
+           android:layout_width="420dp"
+           android:layout_height="350dp"
+           android:layout_below="@id/before"
+           android:layout_marginTop="40dp"/>
+
+
+       <TextView
+           android:id="@+id/after"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/photo_view"
+           android:layout_marginTop="40dp"
+           android:gravity="center"
+           android:textSize="16sp"
+           android:text="@string/after"/>
+
+       <com.github.chrisbanes.photoview.PhotoView
+           android:id="@+id/photo_view_after"
+           android:layout_width="420dp"
+           android:layout_height="350dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="40dp"
+           android:layout_below="@id/after"
+           />
+
+
+
+
+   </RelativeLayout>
+
+
+      </LinearLayout>
+
+
+
+
+   </ScrollView>
+</LinearLayout>

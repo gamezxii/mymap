@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="edittext_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_width">275dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:background">@drawable/buttun_bg</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="button1_style">
+        <item name="android:background">@drawable/regisbtn_bg</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="register_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/register_bg</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">275dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="map_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/map_bg</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">50</item>
+    </style>
+
+    <style name="AdmRecrive">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/text_adm</item>
+        <item name="android:layout_margin">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">50</item>
+    </style>
+
+</resources>

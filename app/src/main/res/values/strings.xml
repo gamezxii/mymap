@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sup-pa-rod</string>
+    <string name="textview1">Lat</string>
+    <string name="txtsent">ส่ง</string>
+    <string name="txtgeo">TextView</string>
+    <string name="txtbox1">รายละเอียด</string>
+    <string name="txtAddress">Address</string>
+    <string name="image">picture</string>
+    <string name="take_picture">Take picture</string>
+    <string name="german_shepherd_des">สิ่งที่ประทับใจของผู้ที่ได้พบเห็นเยอรมันเช็พเพอดที่ดีคือ ความแข็งแรงว่องไว เต็มไปด้วยกล้ามเนื้อตื่นตัวและมีชีวิตชีวา มองโดยรวมแล้วจะกลมกลืนและได้สัดส่วนกันระหว่างส่วนหน้าและส่วนท้าย ตัวจะยาวกว่าส่วนสูง ลำตัวลึก เส้นรอบตัวจะเป็นเส้นโค้งที่กลมกลืนแทนที่จะเป็นเหลี่ยมมุม มีขนาดค่อนข้างใหญ่และอ่อนแอ ให้ความรู้สึกไม่ว่าจะอยู่นิ่งหรือเคลื่อนไหวถึงความกระชับของกล้ามเนื้อและการเคลื่อนที่อย่างนุ่มนวล</string>
+    <string name="labrador_retriever_des">เป็นสุนัขพันธุ์ใหญ่ที่จัดอยู่ในกลุ่ม sporting group เนื่องจากต้นกำเนิดเป็นสุนัขที่ใช้ในการล่าและจับสัตว์ พื้นฐานโครงสร้างจึงเป็นสุนัขที่มีความแข็งแรง ทรงตัวได้ดี สามรถทนต่อสภาวะที่ปรวนแปรได้ดี ดูใจดีมีความฉลาด และสง่างาม</string>
+    <string name="showpoass">ดูพาส</string>
+    <string name="fff">Ture UPC4</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_back">Back</string>
+    <string name="login">Login</string>
+    <string name="Register">Register</string>
+    <string name="repass">ลืมรหัสผ่าน ? กดที่นี้</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="truereport">logoture</string>
+    <string name="Submit">Confirm</string>
+    <string name="report">แจ้งปัญหาไฟเบอร์</string>
+    <string name="reporthis">ประวัติการแจ้ง</string>
+    <string name="cancle">ยกเลิก</string>
+    <string name="doreport">รายงาน</string>
+    <string name="rec">ประวัติการรับเรื่อง</string>
+    <string name="before">before</string>
+    <string name="after">after</string>
+    <string name="recrive">ผู้รับเรื่อง : </string>
+    <string name="namerecrive">ชื่อผู้รับ</string>
+    <string name="datesent">วันที่แจ้ง</string>
+    <string name="datesent1">1/1/1</string>
+    <string name="statussuc">สถานะ : </string>
+    <string name="statussuc1">เสร็จสิ้น</string>
+    <string name="datesrum">วันที่แก้ไข</string>
+    <string name="datesrum1">1/1/1</string>
+
+
+    <string name="host" translatable="false">http://10.0.2.2/complan/</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="send">SEND</string>
+    <string name="cancle1">CANCLE</string>
+    <string name="imv">image</string>
+    <string name="title_activity_maps_request">Map</string>
+    <string name="adddaterecrive">ระยะเวลาดำเนินการ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">รายละเอียด :</string>
+    <string name="road">สถานที่ :</string>
+    <string name="showStatus">สถานะ :</string>
+    <string name="showdate">วันที่ส่ง :</string>
+
+
+</resources>

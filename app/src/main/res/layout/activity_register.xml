@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nitsarut.mymap.LoginActivity"
+    android:gravity="center">
+    <requestFocus />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="100dp"
+        android:textStyle = "bold"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            style="@style/register_style"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:hint="Username"
+            android:textStyle = "bold"
+
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/register_style"
+            android:layout_below="@id/etUsername"
+            android:hint="Password"
+            android:layout_marginTop="5dp"
+            android:textStyle = "bold"
+
+            android:inputType="text|textPassword" />
+
+        <EditText
+            android:id="@+id/etName"
+            style="@style/register_style"
+            android:layout_below="@id/etPassword"
+            android:hint="Name"
+            android:textStyle = "bold"
+
+            android:layout_marginTop="5dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etSurName"
+            style="@style/register_style"
+            android:layout_below="@id/etName"
+            android:hint="Surname"
+            android:layout_marginTop="5dp"
+            android:textStyle = "bold"
+
+
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etTel"
+            style="@style/register_style"
+            android:hint="Tel"
+            android:layout_marginTop="5dp"
+            android:textStyle = "bold"
+            android:layout_below="@id/etTel"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etProvine"
+            style="@style/register_style"
+            android:hint="Provine"
+            android:layout_marginTop="5dp"
+            android:textStyle = "bold"
+            android:layout_below="@id/etTel" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/button1_style"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/colorwhite"
+                android:text="@string/Submit" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
